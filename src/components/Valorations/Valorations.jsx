@@ -1,12 +1,13 @@
 import {
 	StyledContainerValorations,
 	StyledImgValorations,
-	StyledTitle
+	StyledTitle,
+	StyledTotalContainerValoration
 } from './styles';
 
 const Valorations = () => {
 	return (
-		<>
+		<StyledTotalContainerValoration>
 			<StyledContainerValorations>
 				<StyledImgValorations src='./public/images 3/icon-star.svg' alt='' />
 				<StyledImgValorations src='./public/images 3/icon-star.svg' alt='' />
@@ -31,7 +32,7 @@ const Valorations = () => {
 				<StyledImgValorations src='./public/images 3/icon-star.svg' alt='' />
 				<StyledTitle>Rated 5 Stars in BestTech</StyledTitle>
 			</StyledContainerValorations>
-		</>
+		</StyledTotalContainerValoration>
 	);
 };
 export default Valorations;

@@ -1,16 +1,29 @@
 import { styled } from 'styled-components';
+const StyledTotalContainerValoration = styled.div`
+	display: flex;
+	flex-direction: column;
+	@media (min-width: 1250px) {
+		margin-top: 170px;
+		margin-left: 100px;
+	}
+`;
 
 const StyledContainerValorations = styled.div`
 	display: block;
 	align-items: center;
 	border-radius: 8px;
 	background: #f7f2f7;
-	width: 445px;
-	height: 66px;
+	width: 327px;
+	height: 78px;
 	text-align: center;
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: 10px;
+	@media (min-width: 1250px) {
+		width: 445px;
+		height: 70px;
+		flex-shrink: 0;
+	}
 `;
 
 const StyledImgValorations = styled.img`
@@ -31,4 +44,9 @@ const StyledTitle = styled.h3`
 	margin: 0px;
 `;
 
-export { StyledTitle, StyledContainerValorations, StyledImgValorations };
+export {
+	StyledTitle,
+	StyledContainerValorations,
+	StyledImgValorations,
+	StyledTotalContainerValoration
+};
