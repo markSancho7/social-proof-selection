@@ -18,6 +18,7 @@ const StyledImgValorations = styled.img`
 	width: 20px;
 	margin-top: 13px;
 	margin-left: 10px;
+	margin-bottom: 5px;
 `;
 
 const StyledTitle = styled.h3`

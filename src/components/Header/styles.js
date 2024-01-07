@@ -11,16 +11,19 @@ const StyledTitle = styled.h1`
 	width: 445px;
 	height: 100px;
 	color: #512051;
+
 	font-family: League Spartan;
 	font-size: 56px;
 	font-style: normal;
 	font-weight: 700;
 	line-height: 48px; /* 85.714% */
 	letter-spacing: -2px;
+
 	text-align: center;
 `;
 
 const StyledDescription = styled.p`
+	width: 445px;
 	color: #927b91;
 	font-family: League Spartan;
 	font-size: 19px;
