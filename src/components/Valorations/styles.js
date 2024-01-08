@@ -23,6 +23,9 @@ const StyledContainerValorations = styled.div`
 		width: 445px;
 		height: 70px;
 		flex-shrink: 0;
+		position: absolute;
+		left: ${props => props.$moveLeft + 'px'};
+		top: ${props => props.$moveTop + 'px'};
 	}
 `;
 

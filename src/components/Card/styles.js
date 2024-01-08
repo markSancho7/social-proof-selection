@@ -11,6 +11,9 @@ const StyledCardContainer = styled.div`
 	margin-top: 20px;
 	grid-column: ${props => props.$gridColumn};
 	grid-row: ${props => props.$gridRow};
+	@media (min-width: 1250px) {
+		margin-top: 180px;
+	}
 `;
 const StyledTitleContainer = styled.div`
 	display: flex;
